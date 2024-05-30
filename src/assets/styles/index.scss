@@ -1,0 +1,23 @@
+@import "./var.scss";
+
+body {
+  color: $white;
+  font-family: "SB Sans Text", Helvetica, sans-serif;
+  position: relative;
+  background: linear-gradient(26deg, rgba(15, 153, 24, 0.14) 0%, rgba(8, 8, 8, 0.00) 72.24%), radial-gradient(104.89% 141.42% at 0% 100%, rgba(0, 170, 255, 0.12) 0%, rgba(8, 8, 8, 0.00) 99.69%), radial-gradient(108.72% 157.5% at 50% 149.35%, rgba(0, 102, 255, 0.30) 0%, rgba(8, 8, 8, 0.00) 99.69%);  overflow-x: hidden;
+
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_start {
+  justify-content: flex-start;
+}
+
+.inliner_innerText {
+  display: flex;
+  align-items: center;
+}
